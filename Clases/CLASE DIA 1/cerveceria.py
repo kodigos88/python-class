@@ -1,0 +1,1 @@
+print("El nombre de tu cerveza\nes '" + input("Ingresa tu primera Opcion?: ") + " " + input("Ingresa tu segunda Opcion?: ") + "'\nFelicitaciones")
