@@ -1,3 +1,4 @@
 lista = ['g', 'o', 'b', 'm', 'o']
-lista.sort()
-print(lista)
+otra_lista = ['hola', 55, 'B']
+resultado = len(otra_lista)
+print(resultado)

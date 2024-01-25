@@ -15,3 +15,22 @@ num3 = 48
 mi_bool = (num1 > num2 < num3)
 
 print(mi_bool)
+
+# USANDO OPERADOR AND #
+my_bool = 4 < 5 and (5 == 2+3)
+print(my_bool)
+
+# USANDO OPERADOR OR #
+
+n1 = 1 == 10 or 3 == 3
+print(type(n1))
+print(n1)
+
+texto = 'Esta frase es breve'
+encontrar = ('frase' in texto) and ('breve' in texto)
+print(encontrar)
+
+# USANDO OPERADOR NOT #
+
+c1 = not ('a' != 'a')
+print(c1)

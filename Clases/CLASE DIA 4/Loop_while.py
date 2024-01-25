@@ -1,11 +1,10 @@
-    
 #Crea un Loop While que se imprima en pantalla los números del 10 al 0, uno a la vez.
 
-numero = 10
+num = 10
 
-while numero >= 0:
-    print(numero)
-    numero -= 1
+while num >= 0:
+    print(num)
+    num -= 1
     
 
 
@@ -22,3 +21,13 @@ while numero >= 0:
             numero -= 1
         else:
             numero -= 1
+
+
+monedas = 5
+
+while monedas > 0:
+    print(f'Tengo {monedas} monedas')
+    monedas -= 1
+else:
+    print("No tengo mas monedas")
+
